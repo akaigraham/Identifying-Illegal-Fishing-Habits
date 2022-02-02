@@ -20,7 +20,8 @@ Build a classifier to identify whether a vessel is fishing.  Ultimate goal is to
 4. [`tide_api_call.ipynb`](/tide_api_call.ipynb) - separate notebook that pulls in ocean depth based on lat, lon inputs.  Ultimately wasn't used as computation time was too large.
 5. [`notebook.pdf`](/notebook.pdf) - pdf version of jupyter notebook
 6. [`presentation.pdf`](/presentation.pdf) - non-technical presentation
-7. [`/readme_imgs`](/readme_imgs) - directory housing all images used in this file
+7. [`repo.pdf`](repo.pdf) - pdf version of github repo
+8. [`/readme_imgs`](/readme_imgs) - directory housing all images used in this file
 
 ## Project Objectives
 Build a classifier to predict whether a vessel is engaged in fishing activity in context of providing policymakers, regulators, and other ocean resource stakeholders a tool to identify vessels that are fishing.  Follow CRISP-DM machine learning process to explore dataset, prepare data for modeling, modeling, and post-model evaluation. Main performance metrics focused on were accuracy and recall as our dataset is not very sensitive to producing false positives.
