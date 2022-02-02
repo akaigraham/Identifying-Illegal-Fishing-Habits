@@ -55,3 +55,7 @@ The top 6 most important features to our model were:
 When looking to identify a vessel that is fishing or not, these features will be most important to have as inputs.
 
 ![`features`](/readme_imgs/features.png)
+
+1. Use classifier in conjunction with public AIS data to start tagging ships as fishing or not
+2. Cross reference vessels labeled as fishing with illegal fishing zones, regulated areas, etc.
+3. Physically search ships arriving at port that have been flagged as potential violators
