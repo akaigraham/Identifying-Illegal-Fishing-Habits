@@ -33,7 +33,12 @@ Following CRISP-DM, the process outlined within [`notebook.ipynb`](/notebook.ipy
 ## Findings & Recommendations
 The best performing model identified was a tuned random forest model.  Final model scores:
 ![`Scores`](/readme_imgs/scores.png)
+
+Looking at the confusion matrix for the final model, we can see that there are far more false positives than false negatives, as indicated by the number in the upper right quadrant vs. lower left quadrant. We are more interested in a strong recall, and therefore are not too worried with the level of false positives generated given the end applications.
+
 ![`matrix`](/readme_imgs/matrix.png)
+
+
 
 The top 6 most important features to our model were:
 1. `speed`
