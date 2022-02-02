@@ -32,8 +32,4 @@ Following CRISP-DM, the process outlined within [`notebook.ipynb`](/notebook.ipy
 
 ## Findings & Recommendations
 The best performing model identified was a tuned random forest model.  Final model scores:
-- Train Accuracy: 93.8%
-- Test Accuracy: 92.9%
-- Train Recall: 97.3%
-- Test Recall: 96.4%
 ![`Scores`](/readme_imgs/scores.png)
