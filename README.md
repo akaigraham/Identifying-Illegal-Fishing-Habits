@@ -36,3 +36,4 @@ The best performing model identified was a tuned random forest model.  Final mod
 - Test Accuracy: 92.9%
 - Train Recall: 97.3%
 - Test Recall: 96.4%
+![`Scores`](/readme_imgs/scores.png)
