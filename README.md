@@ -33,3 +33,16 @@ Following CRISP-DM, the process outlined within [`notebook.ipynb`](/notebook.ipy
 ## Findings & Recommendations
 The best performing model identified was a tuned random forest model.  Final model scores:
 ![`Scores`](/readme_imgs/scores.png)
+![`matrix`](/readme_imgs/matrix.png)
+
+The top 6 most important features to our model were:
+1. `speed`
+2. `distance_from_port`
+3. `lat`
+4. `lon`
+5. `depth`
+6. `temp`
+
+When looking to identify a vessel that is fishing or not, these features will be most important to have as inputs.
+
+![`features`](/readme_imgs/features.png)
