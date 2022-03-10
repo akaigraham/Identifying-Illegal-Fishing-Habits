@@ -9,7 +9,7 @@ Within this [`README.md`](/README.md) you will find:
 6. Conclusion / Summary
 
 ## Introduction
-Build a classifier to identify whether a vessel is fishing.  Ultimate goal is to create a classifier that can be used by policymakers, regulators, and other stakeholders involved with preservation of ocean resources to identify vessels that are fishing.  
+Build a classifier to identify whether a vessel is fishing.  Provide policymakers and regulators an automated tool to identify fishing activity remotely.  
 
 ![`Vessels Plotted by Label`](/readme_imgs/map.png)
 
