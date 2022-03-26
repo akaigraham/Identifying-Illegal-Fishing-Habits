@@ -15,8 +15,10 @@ Accurately identify fishing activity using vessel track data alongside various o
 ![`Vessels Plotted by Label`](/imgs/map.png)
 
 ## Repository Contents
-1. [`README.md`](/README.md)
-2.
+1. [`README.md`](README.md)
+2. [`Fishing-ID_Presentation.pdf`](Fishing-ID_Presentation.pdf) - Non-technical presentation outlining methodology, recommendations, and findings.
+3. [`Identifying-Fishing_Notebook.ipynb`](Identifying-Fishing_Notebook.ipynb) - jupyter notebook containing all code and analysis
+4. [`/imgs`](/imgs) - folder containing image files found in this README
 
 ## Project Objectives
 Build a classifier to predict whether a vessel is engaged in fishing activity in context of providing policymakers, regulators, and other ocean resource stakeholders a tool to identify illegal fishing activity.  Follow CRISP-DM machine learning process to explore dataset, prepare data for modeling, modeling, and post-model evaluation. Main performance metrics focused on were accuracy and recall as our dataset is not very sensitive to producing false positives.
