@@ -12,7 +12,7 @@ Within this [`README.md`](/README.md) you will find:
 ## Introduction
 Accurately identify fishing activity using vessel track data alongside various ocean station measurements.  Train, tune, and evaluate a number of machine learning models and techniques, including: Decision Trees, Random Forests, XGBoost, and Neural Networks.
 
-![`Vessels Plotted by Label`](/readme_imgs/map.png)
+![`Vessels Plotted by Label`](/imgs/map.png)
 
 ## Repository Contents
 1. [`README.md`](/README.md)
@@ -219,7 +219,7 @@ boats_df['silicate'] = silicates
 ```
 Successful running of this should give the following merged dataset, containing both AIS vessel track data, and ocean station measurement data.
 
-![Merged Dataset](/merged_df.png)
+![Merged Dataset](/imgs/merged_df.png)
 
 As a final data understanding step, comparing ocean station predictors against the target provides gives important information about which features may be most predictive or helpful in the modeling stages.
 
