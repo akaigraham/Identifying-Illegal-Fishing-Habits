@@ -322,12 +322,19 @@ Summarizing the performance metrics of our final model, we see the following sco
 
 Looking at the confusion matrix for the final model, we can see that there are far more false positives than false negatives, as indicated by the number in the upper right quadrant vs. lower left quadrant. We are more interested in a strong recall, and therefore are not too worried with the level of false positives generated given the end applications.
 
-![`matrix`](/imgs/matrix.png)
+![Matrix](/imgs/matrix.png)
+
+In addition to looking at model performance via a number of performance metrics, we can also evaluate the final features included in our random forest model.  The below feature importances plot features by importance.  
+
+![Features](/imgs/features.png)
+
+It's nice to see features from both the AIS and ODS datasets are used in the final model.  
 
 Recommendations:
 1. Use classifier in conjunction with public AIS data to start tagging ships as fishing or not
 2. Cross reference vessels labeled as fishing with illegal fishing zones, regulated areas, etc.
 3. Physically search ships arriving at port that have been flagged as potential violators
+4. Leverage important features, with focus on ocean station measurements, to understand conditions that are conducive to fishing activity.  Regulators / policymakers can create alerts based on these conditions, allowing additional oversight when conditions are likely to promote a lot of fishing activity. 
 
 # Conclusion / Summary
 We were able to build a classifier capable of correctly identifying the fishing activity of a vessel 93% of the time. Furthermore, we were fairly strict in addressing overfitting to training data, and results could be further improved going forward if slight overfitting as shown by baseline models is allowed.  
